@@ -141,6 +141,7 @@
     <ClCompile Include="bigFileCopy.c" />
     <ClCompile Include="BubbleSort.c" />
     <ClCompile Include="catEdit.c" />
+    <ClCompile Include="mystrStr.c" />
     <ClCompile Include="vi编辑器.c" />
     <ClCompile Include="打字游戏.c" />
   </ItemGroup>

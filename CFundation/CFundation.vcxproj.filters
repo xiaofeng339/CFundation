@@ -30,5 +30,8 @@
     <ClCompile Include="bigFileCopy.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="mystrStr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

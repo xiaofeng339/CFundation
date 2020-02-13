@@ -6,7 +6,7 @@
 #include<sys/stat.h>
 
 #define MAXSIZE 1024*1024*10
-
+#if 0
 int bigFileCopy(int argc, char* argv[])
 {
 	unsigned int stat_time = time(NULL);
@@ -20,7 +20,7 @@ int bigFileCopy(int argc, char* argv[])
 		printf("²Ù×÷ÎÄ¼þÊ§°Ü\n");
 		return -2;
 	}
-	struct stat *s = NULL;
+	struct stat* s = NULL;
 	stat(argv[1], s);
 	char* ch;
 	int maxSize = 0;
@@ -42,5 +42,7 @@ int bigFileCopy(int argc, char* argv[])
 	}
 	fclose(fp1);
 	fclose(fp2);
+
 }
+#endif;
 
