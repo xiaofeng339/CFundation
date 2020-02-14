@@ -13,36 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\List">
+      <UniqueIdentifier>{017d61cf-d558-4de9-a2ac-b16490c56ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Properties">
+      <UniqueIdentifier>{ace81116-547d-4c44-b3ae-188cb6dd6e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sort">
+      <UniqueIdentifier>{3f600fda-6aec-481e-9b0e-b552132324a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\other">
+      <UniqueIdentifier>{ee732be7-3d09-4824-9ab0-d28446251e4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BubbleSort.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="打字游戏.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="vi编辑器.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="catEdit.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bigFileCopy.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="mystrStr.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="selectionSort.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="LinkList.c">
+      <Filter>源文件\List</Filter>
     </ClCompile>
     <ClCompile Include="Properties.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Properties</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.c">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="selectionSort.c">
+      <Filter>源文件\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="bigFileCopy.c">
+      <Filter>源文件\other</Filter>
+    </ClCompile>
+    <ClCompile Include="catEdit.c">
+      <Filter>源文件\other</Filter>
+    </ClCompile>
+    <ClCompile Include="vi编辑器.c">
+      <Filter>源文件\other</Filter>
+    </ClCompile>
+    <ClCompile Include="打字游戏.c">
+      <Filter>源文件\other</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkList.h">
+      <Filter>源文件\List</Filter>
+    </ClInclude>
     <ClInclude Include="Properties.h">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Properties</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
