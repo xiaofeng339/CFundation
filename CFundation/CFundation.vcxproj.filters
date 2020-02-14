@@ -36,5 +36,13 @@
     <ClCompile Include="selectionSort.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Properties.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Properties.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
