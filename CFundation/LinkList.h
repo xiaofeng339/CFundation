@@ -20,6 +20,8 @@ extern "C" {
 	void Destroy_LinkList(struct LinkNode * header);
 	//Çå¿Õ
 	void Clear_LinkList(struct LinkNode* header);
+	//Á´±íÄæĞò
+	void Reverse_LinkList(struct LinkNode* header);
 #ifdef __cplusplus
 }
 #endif // __cplusplus
