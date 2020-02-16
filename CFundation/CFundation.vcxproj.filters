@@ -54,6 +54,15 @@
     <ClCompile Include="打字游戏.c">
       <Filter>源文件\other</Filter>
     </ClCompile>
+    <ClCompile Include="DynArray.c">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
+    <ClCompile Include="One_way_LinkedList.c">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
+    <ClCompile Include="One_way_LinkedList_version2.c">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
@@ -61,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="Properties.h">
       <Filter>源文件\Properties</Filter>
+    </ClInclude>
+    <ClInclude Include="One-way_LinkedList.h">
+      <Filter>源文件\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

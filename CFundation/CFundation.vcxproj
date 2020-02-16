@@ -141,8 +141,11 @@
     <ClCompile Include="bigFileCopy.c" />
     <ClCompile Include="BubbleSort.c" />
     <ClCompile Include="catEdit.c" />
+    <ClCompile Include="DynArray.c" />
     <ClCompile Include="LinkList.c" />
     <ClCompile Include="mystrStr.c" />
+    <ClCompile Include="One_way_LinkedList.c" />
+    <ClCompile Include="One_way_LinkedList_version2.c" />
     <ClCompile Include="Properties.c" />
     <ClCompile Include="selectionSort.c" />
     <ClCompile Include="vi编辑器.c" />
@@ -150,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
+    <ClInclude Include="One-way_LinkedList.h" />
     <ClInclude Include="Properties.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
