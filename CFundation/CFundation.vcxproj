@@ -143,18 +143,23 @@
     <ClCompile Include="catEdit.c" />
     <ClCompile Include="DynArray.c" />
     <ClCompile Include="LinkList.c" />
+    <ClCompile Include="LinkStack.c" />
     <ClCompile Include="mystrStr.c" />
     <ClCompile Include="One_way_LinkedList.c" />
     <ClCompile Include="One_way_LinkedList_version2.c" />
+    <ClCompile Include="principle_of_proximity.c" />
     <ClCompile Include="Properties.c" />
     <ClCompile Include="selectionSort.c" />
+    <ClCompile Include="SeqStack.c" />
     <ClCompile Include="vi编辑器.c" />
     <ClCompile Include="打字游戏.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
+    <ClInclude Include="LinkStack.h" />
     <ClInclude Include="One-way_LinkedList.h" />
     <ClInclude Include="Properties.h" />
+    <ClInclude Include="SeqStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
