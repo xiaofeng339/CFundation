@@ -28,6 +28,12 @@
     <Filter Include="源文件\Stack">
       <UniqueIdentifier>{bb939345-4576-4c52-992d-766fcdea5918}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Queue">
+      <UniqueIdentifier>{7a32f608-3a17-4514-8206-1e5f739c0363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\binary_tree">
+      <UniqueIdentifier>{a449a93c-843d-4c41-8eb3-fad45da95741}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mystrStr.c">
@@ -75,6 +81,15 @@
     <ClCompile Include="principle_of_proximity.c">
       <Filter>源文件\other</Filter>
     </ClCompile>
+    <ClCompile Include="LinkQueue.c">
+      <Filter>源文件\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursive_binary_tree_traversal.c">
+      <Filter>源文件\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="void_Forder.c">
+      <Filter>源文件\binary_tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Properties.h">
@@ -91,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="LinkStack.h">
       <Filter>源文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>源文件\Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
