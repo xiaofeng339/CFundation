@@ -141,6 +141,7 @@
     <ClCompile Include="bigFileCopy.c" />
     <ClCompile Include="BubbleSort.c" />
     <ClCompile Include="catEdit.c" />
+    <ClCompile Include="chairman.cpp" />
     <ClCompile Include="DynArray.c" />
     <ClCompile Include="LinkList.c" />
     <ClCompile Include="LinkQueue.c" />

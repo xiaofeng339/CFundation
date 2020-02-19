@@ -34,11 +34,11 @@
     <Filter Include="源文件\binary_tree">
       <UniqueIdentifier>{a449a93c-843d-4c41-8eb3-fad45da95741}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\singleton_pattern">
+      <UniqueIdentifier>{2dcd349d-d12b-4000-8851-929b4f7faa66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mystrStr.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="LinkList.c">
       <Filter>源文件\List</Filter>
     </ClCompile>
@@ -89,6 +89,12 @@
     </ClCompile>
     <ClCompile Include="void_Forder.c">
       <Filter>源文件\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="mystrStr.c">
+      <Filter>源文件\other</Filter>
+    </ClCompile>
+    <ClCompile Include="chairman.cpp">
+      <Filter>源文件\singleton_pattern</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
