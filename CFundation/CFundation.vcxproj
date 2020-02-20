@@ -146,6 +146,7 @@
     <ClCompile Include="LinkList.c" />
     <ClCompile Include="LinkQueue.c" />
     <ClCompile Include="LinkStack.c" />
+    <ClCompile Include="myArray.cpp" />
     <ClCompile Include="mystrStr.c" />
     <ClCompile Include="One_way_LinkedList.c" />
     <ClCompile Include="One_way_LinkedList_version2.c" />
@@ -162,6 +163,7 @@
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
+    <ClInclude Include="myArray.h" />
     <ClInclude Include="One-way_LinkedList.h" />
     <ClInclude Include="Properties.h" />
     <ClInclude Include="SeqStack.h" />

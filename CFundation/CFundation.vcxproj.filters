@@ -96,6 +96,9 @@
     <ClCompile Include="chairman.cpp">
       <Filter>源文件\singleton_pattern</Filter>
     </ClCompile>
+    <ClCompile Include="myArray.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Properties.h">
@@ -115,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="LinkQueue.h">
       <Filter>源文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="myArray.h">
+      <Filter>源文件\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
