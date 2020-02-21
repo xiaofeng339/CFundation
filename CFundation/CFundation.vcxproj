@@ -160,6 +160,7 @@
     <ClCompile Include="打字游戏.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="globle_Array.hpp" />
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
