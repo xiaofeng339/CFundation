@@ -139,13 +139,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Snake\food.h" />
-    <ClInclude Include="..\Snake\snake.h" />
+    <ClInclude Include="..\Snake\snake_STL.h" />
     <ClInclude Include="..\Snake\wall.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Snake\food.cpp" />
     <ClCompile Include="..\Snake\game.cpp" />
-    <ClCompile Include="..\Snake\snake.cpp" />
+    <ClCompile Include="..\Snake\snake_STL.cpp" />
     <ClCompile Include="..\Snake\Wall.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

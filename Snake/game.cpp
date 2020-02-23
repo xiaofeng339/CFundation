@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 #include"wall.h"
-#include"snake.h"
+#include"snake_STL.h"
 #include"food.h"
 #include<ctime>
 #include<conio.h>

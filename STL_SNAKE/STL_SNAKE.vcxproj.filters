@@ -18,10 +18,10 @@
     <ClInclude Include="..\Snake\food.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\Snake\snake.h">
+    <ClInclude Include="..\Snake\wall.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\Snake\wall.h">
+    <ClInclude Include="..\Snake\snake_STL.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,10 +32,10 @@
     <ClCompile Include="..\Snake\game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\Snake\snake.cpp">
+    <ClCompile Include="..\Snake\Wall.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\Snake\Wall.cpp">
+    <ClCompile Include="..\Snake\snake_STL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
