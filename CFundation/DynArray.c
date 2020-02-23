@@ -29,8 +29,8 @@ struct DynamicArray* Init_DynamicArray(int capacity) {
 	return arr;
 }
 //≤Â»Î‘™Àÿ
-void Insert(struct DynamicArray* arr, int pos, void* data) {
-	if (NULL = -arr) {
+void Insert(struct DynamicArray*arr, int pos, void* data) {
+	if (NULL == arr) {
 		return;
 	}
 	if (NULL == data) {
@@ -81,7 +81,7 @@ void RemoveByPos_DynamicArray(struct DynamicArray* arr, int pos)
 	if (pos < 0 || pos >arr->size - 1) {
 		return;
 	}
-	for (int i = pos; i < arr->size - 1; ++1) {
+	for (int i = pos; i < arr->size - 1; ++i) {
 		arr->addr[i] = arr->addr[i + 1];
 	}
 	arr->size--;
