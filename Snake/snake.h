@@ -2,21 +2,22 @@
 #include<iostream>
 #include"wall.h"
 #include"food.h"
+#include<list>
 using namespace std;
 class Snake {
 public:
 	Snake(Wall& tempWall,Food &food);
 	enum {UP ='w',DOWN ='s',LEFT='a',RIGHT='d' };
 	//节点
-	struct Point {
-		//数据域
-		int x;
-		int y;
+	//struct Point {
+	//	//数据域
+	//	int x;
+	//	int y;
 
-		//指针域
-		Point* next;
-	};
-
+	//	//指针域
+	//	Point* next;
+	//};
+	
 	//初始化蛇
 	void initSanke();
 	//销毁节点
@@ -35,7 +36,8 @@ public:
 	int getScore();
 	//返回值代表  移动是否成功
 	bool move(char key);
-	Point* pHead;
+private:
+	list<pair<int, int>> lSnake;
 	Wall& wall;
 	Food& food;
 	bool isRool;
